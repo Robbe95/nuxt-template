@@ -1,0 +1,38 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "html.format.enable": false,
+  // Formatting with ESLINT
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  // Change to main project language
+  "i18n-ally.sourceLanguage": "nl",
+  "i18n-ally.displayLanguage": "nl",
+  "i18n-ally.keystyle": "flat",
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  // Fix unknown at-rules for scss and css (UnoCSS)
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "typescript.preferences.importModuleSpecifier": "non-relative", // or "shortest"
+  "javascript.preferences.importModuleSpecifier": "non-relative" // or "shortest"
+
+}
